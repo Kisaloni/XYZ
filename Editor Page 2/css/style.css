@@ -73,6 +73,14 @@ hr{
 .grid-container{
     padding: 0 20px;
 }
+.fa-plus-square{
+    font-size:20px;
+  
+}
+/* .ex{
+    display: inline-block;
+    
+} */
 /* .grid-container{
     display: grid;
     grid-template-columns: 25vw 65vw;
