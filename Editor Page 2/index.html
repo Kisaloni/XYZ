@@ -33,17 +33,20 @@
                     ADDRESS:<br>
                     <input type="text" onkeyup="update(this,add)"><br>
                     E MAIL:<br>
-                    <input type="text"><br>
+                    <input type="text"  onkeyup="update(this,mail1)"><br>
                     MOBILE NUMBER:<br>
-                    <input type="text"><br>
+                    <input type="text"  onkeyup="update(this,tel1)"><br>
                     WEBSITE:<br>
-                    <input type="text"><br>
+                    <input type="text"  onkeyup="update(this,web1)"><br>
                     OBJECTIVE :<br>
-                    <input type="text"><br>
+                    <input type="text"  onkeyup="update(this,exit1)"><br>
                     EDUCATION:<br>
-                    <input type="text"><br>
+                    <input type="text"  onkeyup="update(this,content1)">
+                    <i class="far fa-plus-square"></i>><br>
                     EXPERIENCE:<br>
-                    <input type="text"><br>
+                    
+                    <input type="text" class="ex" onkeyup="update(this,exp1)">
+                   <i class="far fa-plus-square"></i>
                 </form>
             </div>
             <!-- paper begins -->
@@ -58,18 +61,18 @@
                             </h1><hr>
                             <ul>
                                 <li class="ad" id="add">111 Lorem Street, 34785, Ipsum City</li>
-                                <li class="mail">johnsmith@business.com</li>
-                                <li class="tel">+11 444 555 22 33</li>
-                                <li class="web">www.businessweb.com</li>
+                                <li class="mail" id="mail1">johnsmith@business.com</li>
+                                <li class="tel" id="tel1">+11 444 555 22 33</li>
+                                <li class="web" id="web1">www.businessweb.com</li>
                             </ul>
                         </div>
                         <!-- End Personal Information -->
                     </div>
                     <!-- entry starts Ends-->
                     <!-- Begin 1st Row -->
-                    <div class="entry">
+                    <div class="entry" >
                         <h2>OBJECTIVE</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim viverra nibh sed varius. Proin bibendum nunc in sem ultrices posuere. Aliquam ut aliquam lacus.</p>
+                        <p id="exit1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim viverra nibh sed varius. Proin bibendum nunc in sem ultrices posuere. Aliquam ut aliquam lacus.</p>
                     </div>
                     <!-- End 1st Row -->
                     <!-- Begin 2nd Row -->
@@ -77,7 +80,7 @@
                         <h2>EDUCATION</h2>
                         <div class="content">
                             <h3>Sep 2005 - Feb 2007</h3>
-                            <p>Academy of Art University, London <br />
+                            <p id="content1">Academy of Art University, London <br />
                             <em>Master in Communication Design</em></p>
                         </div>
                         <div class="content">
@@ -89,10 +92,11 @@
                     <!-- End 2nd Row -->
                     <!-- Begin 3rd Row -->
                     <div class="entry">
+                           
                         <h2>EXPERIENCE</h2>
                         <div class="content">
                             <h3>May 2009 - Feb 2010</h3>
-                            <p>Agency Creative, London <br />
+                            <p id="exp1">Agency Creative, London <br />
                             <em>Senior Web Designer</em></p>
                             <ul class="info">
                                 <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
